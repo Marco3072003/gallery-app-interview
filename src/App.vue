@@ -104,7 +104,7 @@ const showComponent = ref<string>('gallery');
       <img class="rounded-t-md" :src="image.image_url" :key="image.title">
       <div class="flex items-center gap-4 p-5 bg-slate-50 rounded-lg ">
         <h1 class="text-xl md:text-md sm:text-sm font-bold">Rating :</h1>
-        <i v-for="star in image.rating" class="text-xl md:text-md sm:text-sm fa-solid fa-star text-yellow-500 text-2xl pl-2" />
+        <i v-for="star in image.rating" class="md:text-md sm:text-sm fa-solid fa-star text-yellow-500 text-2xl pl-2" />
         <h2 class="text-xl md:text-md sm:text-sm font-bold">{{ image.rating }} / 5</h2>
       </div>
     </div>
@@ -130,7 +130,7 @@ const showComponent = ref<string>('gallery');
             <img  :src="image.image_url" :key="image.title" >
             <div class="flex items-center gap-4 p-5 bg-slate-50 rounded-lg">
               <h1 class="text-xl font-bold md:text-md sm:text-sm">Rating :</h1>
-              <i v-for="star in image.rating" class=" md:text-md fa-solid fa-star text-yellow-500 text-2xl pl-2"/>
+              <i v-for="star in image.rating" class="md:text-md sm:text-sm fa-solid fa-star text-yellow-500 text-2xl pl-2"/>
               <h2 class=" md:text-md sm:text-sm text-xl font-bold">{{ image.rating }} / 5</h2>
             </div>
           </div>
