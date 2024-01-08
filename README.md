@@ -19,7 +19,7 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
 
 
 #Run App
-- pull the repository
+- clone the repository
 - cd gallery-app-interview
 - npm install (install the dependencies)
 - npm run dev (run the project)
